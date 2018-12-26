@@ -1,0 +1,7 @@
+amarillo
+naranja
+mediano
+semiacido
+si
+si
+no 

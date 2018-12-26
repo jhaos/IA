@@ -1,0 +1,6 @@
+amarillo
+mediano
+dulce
+no
+si
+si 

@@ -1,0 +1,6 @@
+verde
+mediano
+neutro
+no
+si
+si 

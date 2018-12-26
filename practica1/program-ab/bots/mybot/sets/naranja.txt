@@ -1,0 +1,6 @@
+naranja
+mediano
+acido
+no
+si
+si

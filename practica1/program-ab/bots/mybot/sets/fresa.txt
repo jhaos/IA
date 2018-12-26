@@ -1,0 +1,6 @@
+rojo
+pequenio
+semiacido
+no
+si
+si

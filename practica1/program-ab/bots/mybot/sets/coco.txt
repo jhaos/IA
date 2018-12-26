@@ -1,0 +1,6 @@
+marron
+grande
+neutro
+no
+si
+si 

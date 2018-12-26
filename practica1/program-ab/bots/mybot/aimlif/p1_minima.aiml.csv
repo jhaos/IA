@@ -1,0 +1,31 @@
+0,COMO CONSIGO SUPERAR LA PARTE PRACTICA,*,*,Se supera consiguiendo mas de un 50% para aprobar y un 30% para que puedas hacer media,p1_minima.aiml
+0,COMO SE EVALUA EN LA CONVOCATORIA ORDINARIA,*,*,La parte practica se divide en un 10% de asistencia y participacion junto con 3 practicas que cuentan 90% restante,p1_minima.aiml
+0,HAY EXAMEN DE PRACTICAS EN LA CONVOCATORIA EXTRAORDINARIA,*,*,No solo habra un examen que contendra preguntas teoricas y practicas puntado sobre 10,p1_minima.aiml
+0,QUE PASA SI NO PUEDO ASISTIR A CLASE REGULARMENTE,*,*,Que pierdes ese punto extra,p1_minima.aiml
+0,HAY NOTA MINIMA PARA APROBAR,*,*,Un 5 para aprobar 3 para poder hacer media,p1_minima.aiml
+0,LAS PRACTICAS SON OBLIGATORIAS,*,*,No pero la asistencia si,p1_minima.aiml
+0,CUANTO VALE CADA PRACTICA CON RESPECTO A LA NOTA FINAL,*,*,25% con respecto al 90% total de practicas,p1_minima.aiml
+0,CUANTO VALE LA PARTICIPACION CON RESPECTO A LA NOTA FINAL,*,*,10% del 100% de practicas,p1_minima.aiml
+0,COMO SE CONSIGUEN PUNTOS POR PARTICIPACION,*,*,Saliendo a la pizarra a resolver problemas de manera voluntaria,p1_minima.aiml
+0,LOS TRABAJOS SON INDIVIDUALES,*,*,Si#Comma no se pueden hacer por parejas,p1_minima.aiml
+0,SE PUEDEN HACER TRABAJOS EN GRUPO,*,*,No#Comma tienen que ser individuales,p1_minima.aiml
+0,HAY QUE ENTREGAR LOS EJERCICIOS DE LAS RELACIONES DE PROBLEMAS,*,*,No#Comma pero se recomienda hacerlo,p1_minima.aiml
+0,CUANTO VALE EL PRIMER EXAMEN DE TEORIA,*,*,Cada prueba vale 50%,p1_minima.aiml
+0,PUEDO RECUPERAR UNA PRACTICA O EXAMEN,*,*,No#Comma si suspendes una parte y no te da la media tienes que ir a la extraordinaria,p1_minima.aiml
+0,QUE PASA SI *,*,*,Suspenso,p1_minima.aiml
+0,Y SI SUSPENDO EN LA CONVOCATORIA ORDINARIA,*,*,Sin achicarse la sacas en extraordinaria,p1_minima.aiml
+0,CUANTO VALE LA PRACTICA Y LA TEORIA,*,*,Ambas valen 50%,p1_minima.aiml
+0,CUAL ES EL HORARIO DE TUTORIAS DEL PROFESOR DE PRACTICAS,*,*,Lunes de 10 y 30 a 13 y 30 y martes de 10 y 30 a 12 y 30,p1_minima.aiml
+0,SE PUEDE APROBAR LA PARTE PRACTICA DE LA ASIGNATURA SI NO PRESENTO UNA PRACTICA,*,*,Si#Comma pero ya partes con un 25% menos de nota,p1_minima.aiml
+0,CUAL ES LA NOTA MINIMA QUE TENGO QUE OBTENER EN CADA PARTE PARA HACER MEDIA,*,*,Un tres en una de las dos partes,p1_minima.aiml
+0,QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO,*,*,Un 6,p1_minima.aiml
+0,PUEDO ENTREGAR LA PRACTICA 1 SIN HACER LA TAREA RELATIVA AL NIVEL 0,*,*,No#Comma es el minimo para superar la practica,p1_minima.aiml
+0,QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE LA PRACTICA 1,*,*,Hablar con el profesor para poder arreglar el problema,p1_minima.aiml
+0,CUANTAS PRUEBAS TEORICAS TENDRE A LO LARGO DEL CURSO,*,*,Dos,p1_minima.aiml
+0,QUE VALE LA PRIMERA PRUEBA TEORICA,*,*,Un 50%,p1_minima.aiml
+0,EN QUE CONSISTE EL EXAMEN DE EJERCICIOS,*,*,Resolucion de ejercicios propuestos por el profesor,p1_minima.aiml
+0,QUE DEBERIA HACER SI NO ESTOY SEGURO DE PODER SUPERA EL NIVEL 3 DE LA PRACTICA 1,*,*,Preguntar las dudas al profesor y presentarla con seguridad,p1_minima.aiml
+0,YO PROGRAMO MUY BIEN EN C PODRIA HACER LA PRACTICA 1 EN ESE LENGUAJE,*,*,No#Comma usaremos aiml,p1_minima.aiml
+0,ME ENCANTAN LOS AGENTES CONVERSACIONALES Y SOY UN EXPERTO EN SU CONSTRUCCION PODRIA USAR UN AGENTE CONVERSACIONAL PARA QUE VAYAN EN MI LUGAR A HACER LA DEFENSA DE PRACTICAS,*,*,No#Comma debes hacerla tu mismo,p1_minima.aiml
+0,SE PUEDE PROGRAMAR EN OTRO LENGUAJE,*,*,<srai>Yo programo muy bien en c podria hacer la practica 1 en ese lenguaje</srai>,p1_minima.aiml
+0,CUANTA PUNTUACION ES LA MAXIMA PARA CADA EXAMEN DE TEORIA,*,*,<srai>Que vale la primera prueba teorica</srai>,p1_minima.aiml

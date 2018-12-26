@@ -1,0 +1,532 @@
+<?xml version="1.0"
+encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>
+        ^ nivel 0 ^
+    </pattern>
+    <template>
+        Cargando <set name="topic">lvl_0</set>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ nivel 1 ^
+    </pattern>
+    <template>
+        Cargando <set name="topic">lvl_1</set>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ nivel 2 ^
+    </pattern>
+    <template>
+        Cargando <set name="topic">lvl_2</set>
+    </template>
+</category>
+
+<topic name="lvl_0">
+<!-- Pregunta 1 -->
+<category>
+<pattern>Como consigo superar la parte practica</pattern>
+<template>Se supera consiguiendo mas de un 50% para aprobar y un 30% para que puedas hacer media</template>
+</category>
+
+<!-- Pregunta 2 -->
+<category>
+<pattern>Como se evalua en la convocatoria ordinaria</pattern>
+<template>La parte practica se divide en un 10% de asistencia y participacion junto con 3 practicas que cuentan 90% restante</template>
+</category>
+
+<!-- Pregunta 3 -->
+<category>
+<pattern>Hay examen de practicas en la convocatoria extraordinaria</pattern>
+<template>No solo habra un examen que contendra preguntas teoricas y practicas puntado sobre 10</template>
+</category>
+
+<!-- Pregunta 4 -->
+<category>
+<pattern>Que pasa si no puedo asistir a clase regularmente</pattern>
+<template>Que pierdes ese punto extra</template>
+</category>
+
+<!-- Pregunta 5 -->
+<category>
+<pattern>Hay nota minima para aprobar</pattern>
+<template>Un 5 para aprobar 3 para poder hacer media</template>
+</category>
+
+<!-- Pregunta 6 -->
+<category>
+<pattern>Las practicas son obligatorias</pattern>
+<template>No pero la asistencia si</template>
+</category>
+
+<!-- Pregunta 7 -->
+<category>
+<pattern>Cuanto vale cada practica con respecto a la nota final</pattern>
+<template>25% con respecto al 90% total de practicas</template>
+</category>
+
+<!-- Pregunta 8 -->
+<category>
+<pattern>Cuanto vale la participacion con respecto a la nota final</pattern>
+<template>10% del 100% de practicas</template>
+</category>
+
+<!-- Pregunta 9 -->
+<category>
+<pattern>Como se consiguen puntos por participacion</pattern>
+<template>Saliendo a la pizarra a resolver problemas de manera voluntaria</template>
+</category>
+
+<!-- Pregunta 10 -->
+<category>
+<pattern>Los trabajos son individuales</pattern>
+<template>Si, no se pueden hacer por parejas</template>
+</category>
+
+<!-- Pregunta 11 -->
+<category>
+<pattern>Se pueden hacer trabajos en grupo</pattern>
+<template>No, tienen que ser individuales</template>
+</category>
+
+<!-- Pregunta 12 -->
+<category>
+<pattern>Hay que entregar los ejercicios de las relaciones de problemas</pattern>
+<template>No, pero se recomienda hacerlo</template>
+</category>
+
+<!-- Pregunta 13 -->
+<category>
+<pattern>Cuanto vale el primer examen de teoria</pattern>
+<template>Cada prueba vale 50%</template>
+</category>
+
+<!-- Pregunta 14 -->
+<category>
+<pattern>Puedo recuperar una practica o examen</pattern>
+<template>No, si suspendes una parte y no te da la media tienes que ir a la extraordinaria</template>
+</category>
+
+<!-- Pregunta 15-->
+<category>
+<pattern>Que pasa si me copio de otro ^</pattern>
+<template>Suspenso</template> <!-- Preguntar si esto esta bien -->
+</category>
+
+<!-- Pregunta 16-->
+<category>
+<pattern>Que pasa si me dejo copiar de otro ^</pattern>
+<template>Suspenso</template> <!-- Preguntar si esto esta bien -->
+</category>
+
+<!-- Pregunta 17 -->
+<category>
+<pattern>^ suspendo en la convocatoria ordinaria</pattern>
+<template>Sin achicarse la sacas en extraordinaria</template>
+</category>
+
+<!-- Pregunta 18 -->
+<category>
+<pattern>Cuanto vale la practica y la teoria</pattern>
+<template>Ambas valen 50%</template>
+</category>
+
+<!-- Pregunta 19 -->
+<category>
+<pattern>Cual es el horario de tutorias del profesor de practicas</pattern>
+<template>Lunes de 10 y 30 a 13 y 30 y martes de 10 y 30 a 12 y 30</template>
+</category>
+
+<!-- Pregunta 20 -->
+<category>
+<pattern>Se puede aprobar la parte practica de la asignatura si no presento una practica</pattern>
+<template>Si, pero ya partes con un 25% menos de nota</template>
+</category>
+
+<!-- Pregunta 21 -->
+<category>
+<pattern>Cual es la nota minima que tengo que obtener en cada parte para hacer media</pattern>
+<template>Un tres en una de las dos partes</template>
+</category>
+
+<!-- Pregunta 22 -->
+<category>
+<pattern>Que puntuacion obtengo en la practica 1 si opto por defender el nivel 3 y no lo supero</pattern>
+<template>Un 6</template>
+</category>
+
+<!-- Pregunta 23 -->
+<category>
+<pattern>Puedo entregar la practica 1 sin hacer la tarea relativa al nivel 0</pattern>
+<template>No, es el minimo para superar la practica</template>
+</category>
+
+<!-- Pregunta 24 -->
+<category>
+<pattern>Que tengo que hacer si no puedo asistir a la sesion de practicas en la que me corresponde hacer la defensa de la practica 1</pattern>
+<template>Hablar con el profesor para poder arreglar el problema</template>
+</category>
+
+<!-- Pregunta 25 -->
+<category>
+<pattern>Cuantas pruebas teoricas tendre a lo largo del curso</pattern>
+<template>Dos</template>
+</category>
+
+<!-- Pregunta 26 -->
+<category>
+<pattern>Que vale la primera prueba teorica</pattern>
+<template>Un 50%</template>
+</category>
+
+<!-- Pregunta 27 -->
+<category>
+<pattern>En que consiste el examen de ejercicios</pattern>
+<template>Resolucion de ejercicios propuestos por el profesor</template>
+</category>
+
+<!-- Pregunta 28 -->
+<category>
+<pattern>Que deberia hacer si no estoy seguro de poder supera el nivel 3 de la practica 1</pattern>
+<template>Preguntar las dudas al profesor y presentarla con seguridad</template>
+</category>
+
+<!-- Pregunta 29 -->
+<category>
+<pattern>Yo programo muy bien en c podria hacer la practica 1 en ese lenguaje</pattern>
+<template>No, usaremos aiml</template>
+</category>
+
+<!-- Pregunta 30 -->
+<category>
+<pattern>Me encantan los agentes conversacionales y soy un experto en su construccion podria usar un agente conversacional para que vayan en mi lugar a hacer la defensa de practicas</pattern>
+<template>No, debes hacerla tu mismo</template>
+</category>
+
+<!-- Pregunta 31 -->
+<category>
+<pattern>Se puede programar en otro lenguaje</pattern>
+<template><srai>Yo programo muy bien en c podria hacer la practica 1 en ese lenguaje</srai></template>
+</category>
+
+<!-- Pregunta 32 -->
+<category>
+<pattern>Cuanta puntuacion es la maxima para cada examen de teoria</pattern>
+<template><srai>Que vale la primera prueba teorica</srai></template>
+</category>
+
+<!-- Pregunta 33 -->
+<category>
+<pattern>* el examen ^</pattern>
+<template><srai>En que consiste el examen de ejercicios</srai></template>
+</category>
+
+<!-- Pregunta 34 -->
+<category>
+<pattern>^ nota minima para aprobar</pattern>
+<template><srai>hay nota minima para aprobar</srai></template>
+</category>
+
+</topic>
+
+<topic name="lvl_1">
+
+<category>
+    <pattern>* fruta</pattern>
+    <template>Estoy buscando una fruta
+        <think>
+            <set name="lista_fruta"><readset>frutas</readset></set>
+            <set name="numero"><srai>COUNT <get name="lista_fruta"/></srai></set>
+            <set var="pos"><srai>RANDOM <get name="numero" /></srai></set>
+            <set name="mifruta">
+                <srai>
+                    SELECTITEM <get var="pos"/> IN <get name="lista_fruta"/>
+                </srai>
+            </set>
+        </think>
+    </template>
+</category>
+
+<category>
+    <pattern>elegido</pattern>
+    <template><get name="mifruta"/> es una buena fruta</template>
+</category>
+
+<category>
+    <pattern>* color ^</pattern>
+    <template>
+        <think>
+        <set var="color"><star index="2"/></set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="color"/> IN <map name="colores"><get name="mifruta"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category> 
+
+<category>
+    <pattern>* fruta tamanio ^</pattern>
+    <template>
+        <think>
+        <set var="tam"><star index="2"/></set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="tam"/> IN <map name="tamanio"><get name="mifruta"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+   
+
+<category>
+    <pattern>* fruta de sabor *</pattern>
+    <template>
+        <think>
+        <set var="sab"><star index="2"/></set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="sab"/> IN <map name="sabores"><get name="mifruta"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category> 
+
+<category>
+    <pattern>* fruta de vitA</pattern>
+    <template>
+        <think>
+        <set var="vit">Si</set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="vit"/> IN <map name="VitaminaA"><get name="mifruta"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>* fruta de vitB</pattern>
+    <template>
+        <think>
+        <set var="vit">Si</set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="vit"/> IN <map name="VitaminaB"><get name="mifruta"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>* fruta de vitC</pattern>
+    <template>
+        <think>
+        <set var="vit">Si</set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="vit"/> IN <map name="VitaminaC"><get name="mifruta"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>la fruta es *</pattern>
+    <template>
+        <think>
+        <set var="fruta"><star index="1"/></set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="fruta"/> IN <get name="mifruta"/>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">esa no es paquete</li>
+            <li> has encontrado la fruta</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>* <set>frutas</set> es de color *</pattern>
+    <template>
+        <think>
+        <set var="atributo"><star index="3"/></set>
+        <set var="frutaActual"><star index="2"/></set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="atributo"/> IN <map name="colores"><get var="frutaActual"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>* <set>frutas</set> es de tamanio *</pattern>
+    <template>
+        <think>
+        <set var="atributo"><star index="3"/></set>
+        <set var="frutaActual"><star index="2"/></set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="atributo"/> IN <map name="tamanio"><get var="frutaActual"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>* <set>frutas</set> es de sabor *</pattern>
+    <template>
+        <think>
+        <set var="atributo"><star index="3"/></set>
+        <set var="frutaActual"><star index="2"/></set>
+        <set var="posicion">
+            <srai>
+                FINDITEM <get var="atributo"/> IN <map name="sabores"><get var="frutaActual"/></map>
+            </srai>
+        </set>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>* <set>frutas</set> tiene  *</pattern>
+    <template>
+        <think>
+        <set var="atributo"><star index="3"/></set>
+        <set var="frutaActual"><star index="2"/></set>
+        <condition var="atributo">
+            <li value="vita">
+                <set var="correcto">Si</set>
+                <set var="posicion">
+                <srai>
+                    FINDITEM <get var="correcto"/> IN <map name="VitaminaA"><get var="frutaActual"/></map>
+                </srai>
+                </set>
+            </li>
+            <li value="vitb">
+                <set var="correcto">Si</set>
+                <set var="posicion">
+                <srai>
+                    FINDITEM <get var="correcto"/> IN <map name="VitaminaB"><get var="frutaActual"/></map>
+                </srai>
+                </set>
+            </li>
+            <li value="vitc">
+                <set var="correcto">Si</set>
+                <set var="posicion">
+                <srai>
+                    FINDITEM <get var="correcto"/> IN <map name="VitaminaC"><get var="frutaActual"/></map>
+                </srai>
+                </set>
+            </li>
+            <li>Eso no es ninguna vitamina</li>
+        </condition>
+        </think>
+        <condition var="posicion">
+            <li value="0">Nop</li>
+            <li> sip, siguiente pregunta</li>
+        </condition>
+    </template>
+</category>
+
+</topic>
+
+
+
+
+
+<topic name="lvl_2">
+    
+<category>
+    <pattern>Vamos a empezar</pattern>
+    <template>
+        Piensa una fruta humano
+    </template>
+</category>
+    
+<category>
+    <pattern>Ya</pattern>
+    <template>
+        Es de color rojo
+    </template>
+</category>
+
+
+<category>
+    <pattern>si</pattern>
+    <that>ES DE COLOR ROJO</that>
+    <template><think>
+        <set var="respueta"><star/></set>
+        <set var="color_rojo">rojo</set>
+        <set name="lista">fresa cereza manzana</set></think>
+        es mediana
+    </template>
+</category>
+
+<category>
+    <pattern>no</pattern>
+    <that>ES DE COLOR ROJO</that>
+    <template><think>
+        <set name="lista">naranja kiwi madarina pinia mango melocoton higo ciruela pera platano coco aguacate nuez </set></think>
+        es verde
+    </template>
+</category>
+
+</topic>
+
+</aiml>

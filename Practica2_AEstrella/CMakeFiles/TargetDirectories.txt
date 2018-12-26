@@ -1,0 +1,9 @@
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/BelkanSG.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/Belkan.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/rebuild_cache.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/motorLib.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/obj3DLib.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/edit_cache.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/GLUILib.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/modelosBelkanLib.dir
+/home/julius/Escritorio/Dropbox/segundo/segundo_cuatri/ia/practica/Practica2_anchura2/CMakeFiles/comportamientosLib.dir

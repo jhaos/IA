@@ -1,0 +1,7 @@
+verde
+amarillo
+pequenio
+acido
+no
+no
+si 

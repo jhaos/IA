@@ -1,0 +1,4 @@
+0,ES <SET>COLOR</SET> UN COLOR,*,*,si <star/> es un color,segundo.aiml
+0,ES * UN COLOR,*,*,No <star/> no es un color,segundo.aiml
+0,CUAL ES LA CAPITAL DE <SET>PAISES</SET>,*,*,la capital de <star/> es <map name="capital"><star/></map>,segundo.aiml
+0,CUAL ES LA CAPITAL DE *,*,*,no se cual es la capital de <star/>,segundo.aiml

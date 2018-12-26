@@ -1,0 +1,6 @@
+marron
+pequeni
+neutro
+no
+si
+no 

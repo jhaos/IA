@@ -1,0 +1,9 @@
+amarillo
+rojo
+verde
+mediano
+semiacido
+no
+si
+si
+ 
